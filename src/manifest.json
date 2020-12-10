@@ -1,0 +1,16 @@
+{
+  "name": "Vocabulator",
+  "version": "1.0",
+  "description": "Expand your vocabulary everytime you open a new tab!",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "assets/favicon-16x16.png",
+    "32": "assets/favicon-32x32.png",
+    "128": "assets/favicon-128x128.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+
+}
